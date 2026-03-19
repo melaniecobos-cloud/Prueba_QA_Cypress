@@ -1,0 +1,11 @@
+# Prueba de Automatización QA con Cypress
+## Description
+Proyecto de Automatización E2E sobre OrangeHRM.
+
+## Herramientas
+- Cypress
+- Node.js
+- GitHub
+
+## Ejecución
+npx cypress open

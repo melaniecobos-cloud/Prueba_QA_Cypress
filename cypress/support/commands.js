@@ -1,0 +1,9 @@
+Cypress.Commands.add('loginSession',()=>{
+    cy.session('login',()=>{
+        cy.visit('/')
+        cy.get('[name="username"]').type('Admin')
+        cy.get('[name="password"]').type('admin123')
+        cy.get('button[type="submit"]').click()
+        cy.url().should('include','dashboard')
+    })
+})

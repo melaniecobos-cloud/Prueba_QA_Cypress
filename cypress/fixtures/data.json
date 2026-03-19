@@ -1,0 +1,13 @@
+{
+    "employee":{
+        "firstName": "Melanie",
+        "lastName": "QA"
+    },
+    "candidate":{
+        "firstName": "Test",
+        "middleName":"QA",
+        "lastName": "User",
+        "email": "test@gmail.com",
+        "contact": "0955648782"
+    }
+}
