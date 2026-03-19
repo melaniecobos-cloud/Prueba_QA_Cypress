@@ -25,7 +25,7 @@ class RecruitmentPage{
     }
     addVacancy(){
         cy.contains('Add').click()
-        cy.get('.oxd-form > :nth-child(1) > :nth-child(1) > .oxd-input-group > :nth-child(2) > .oxd-input').first().type('QA Vacancy')
+        cy.get('.oxd-form > :nth-child(1) > :nth-child(1) > .oxd-input-group > :nth-child(2) > .oxd-input').first().type('QA Tester')
         cy.wait(1000)
         cy.get('.oxd-select-text').click()
         cy.get('.oxd-select-dropdown > :nth-child(20)').click()
